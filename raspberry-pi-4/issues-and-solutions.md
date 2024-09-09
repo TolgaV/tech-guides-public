@@ -4,6 +4,11 @@
 
 ### PDAF data in unsupported format
 
+**Related Issues**
+
+1. https://github.com/raspberrypi/picamera2/issues/1004
+2. https://github.com/raspberrypi/libcamera/issues/61
+
 **Diagnosis**
 
 During capture operation, the `libcamera` application would throw errors:
