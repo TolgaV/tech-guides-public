@@ -1,0 +1,13 @@
+[Unit]
+Description=Camera Preview Service
+After=graphical.target
+
+[Service]
+Type=simple
+User=tolga
+ExecStart=<path-to-run-camera-preview-over-vnc.sh>/run-camera-preview-over-vnc.sh
+Restart=always
+RestartSec=60
+
+[Install]
+WantedBy=graphical.target
